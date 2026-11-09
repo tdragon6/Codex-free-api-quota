@@ -1,0 +1,15 @@
+{
+  "name": "Codex-free-api-quota",
+  "version": "1.0.0",
+  "description": "Lightweight local OpenAI-compatible relay for coding agents.",
+  "author": "tdragon6",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=24.5.0" },
+  "scripts": {
+    "start": "node relay.mjs start --foreground",
+    "start:bg": "node relay.mjs start",
+    "stop": "node relay.mjs stop",
+    "status": "node relay.mjs status"
+  }
+}
